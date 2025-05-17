@@ -25,3 +25,27 @@ Output: The random password: X?QvE@Ynz7@R
   - `string`
  
     
+### 🔎 Password Leak Checker
+
+A Python script that checks if a password has ever been exposed in a data breach, using the **[Have I Been Pwned](https://haveibeenpwned.com/API/v3#SearchingPwnedPasswordsByRange)** API.
+
+This tool demonstrates how to use hashing, API calls, and generators in Python.
+
+#### 📌 How it works:
+- The user enters a password.
+- The password is hashed using the SHA1 algorithm.
+- Only the first 5 characters of the hash are sent to the API (to preserve privacy).
+- The API returns a list of leaked hash suffixes that match the prefix.
+- The script checks if the full hash is among the leaked ones and tells the user how many times it appeared.
+
+#### ▶️ Example usage:
+Input: Enter a password to check: y7#Fw2p!aM0
+Output: This password was NOT found. Good job!
+
+#### 🛠 Technologies:
+- Python standard library:
+  - `hashlib` – for hashing the password with SHA1
+  - `requests` – for sending HTTP requests to the API
+
+---
+
