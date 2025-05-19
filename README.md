@@ -7,7 +7,7 @@ This repository will continue to grow as I explore more areas in programming.
 ## 📁 Projects
 
 ### 🔐 Password Generator
-A simple Python script that generates a random password based on the desired length.  
+A simple script that generates a random password based on the desired length.  
 It includes uppercase and lowercase letters, digits, and punctuation characters.
 
 #### 📌 How it works:
@@ -27,7 +27,7 @@ Output: The random password: X?QvE@Ynz7@R
     
 ### 🔎 Password Leak Checker
 
-A Python script that checks if a password has ever been exposed in a data breach, using the **[Have I Been Pwned](https://haveibeenpwned.com/API/v3#SearchingPwnedPasswordsByRange)** API.
+A script that checks if a password has ever been exposed in a data breach, using the **[Have I Been Pwned](https://haveibeenpwned.com/API/v3#SearchingPwnedPasswordsByRange)** API.
 
 This tool demonstrates how to use hashing, API calls, and generators in Python.
 
@@ -48,4 +48,17 @@ Output: This password was NOT found. Good job!
   - `requests` – for sending HTTP requests to the API
 
 ---
+
+### 💸 Bank Account
+
+a script that simulates a basic banking system with basic functions such as checking and saving accounts, depositing and withdrawing money,  
+setting interest rates for saving accounts, and keeping logs of all transactions.
+
+## Purpose
+
+The project is a simple practice exercise to Object-Oriented Programming (OOP) concepts in Python.  
+It includes abstract classes, inheritance, encapsulation, and basic input validation.
+
+
+
 
